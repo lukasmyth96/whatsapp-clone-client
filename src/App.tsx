@@ -1,10 +1,11 @@
 import React from 'react';
 
+import ChatNavBar from './components/ChatNavBar';
 import ChatList from './components/ChatList';
 
 const App: React.FC = () => (
   <div>
-    <div>Whatsapp Clone</div>
+    <ChatNavBar />
     <ChatList />
   </div>
 );
