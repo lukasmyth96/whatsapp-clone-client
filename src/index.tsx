@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App name="WhatsApp Clone" />
   </React.StrictMode>,
   document.getElementById('root')
 );
