@@ -6,7 +6,6 @@ const App: React.FC = () => (
   <div>
     <ChatListScreen />
   </div>
-
 );
 
 export default App;
