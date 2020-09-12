@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 interface AppProps {
-  name: string
+  name?: string
 }
 
 const App: React.FC<AppProps> = ({name}) => {
