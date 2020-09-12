@@ -1,13 +1,7 @@
 import React from 'react';
 
-import ChatNavBar from './components/ChatNavBar';
-import ChatList from './components/ChatList';
+import ChatListScreen from './components/ChatListScreen';
 
-const App: React.FC = () => (
-  <div>
-    <ChatNavBar />
-    <ChatList />
-  </div>
-);
+const App: React.FC = () => <ChatListScreen />;
 
 export default App;
