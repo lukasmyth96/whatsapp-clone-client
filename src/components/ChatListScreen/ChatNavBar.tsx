@@ -9,7 +9,6 @@ const Container = styled(Toolbar)`
   line-height: 40px;
 `;
 
-
 const ChatNavBar: React.FC = (props) => <Container>Whatsapp Clone</Container>;
 
 export default ChatNavBar;
