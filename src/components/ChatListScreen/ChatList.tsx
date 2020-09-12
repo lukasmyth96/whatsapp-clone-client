@@ -9,6 +9,8 @@ const ChatList: React.FC = () => (
         <li key={chat.id}>
           <img src={chat.picture} alt="Profile" />
           <div>{chat.name}</div>
+          <div>{chat.lastMessage?.content}</div>
+          <div>{chat.lastMessage?.createdAt}</div>
         </li>
       ))}
     </ul>
