@@ -61,6 +61,7 @@ const ChatList: React.FC = () => {
   useMemo(async () => {
     const body = await fetch(`${process.env.REACT_APP_SERVER_URL}/chats`);
     const chats = await body.json();
+    console.log(chats);
     setChats(chats);
   }, []);
 
