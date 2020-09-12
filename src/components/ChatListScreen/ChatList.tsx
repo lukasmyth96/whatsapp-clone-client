@@ -6,7 +6,7 @@ const ChatList: React.FC = () => (
   <div>
     <ul>
       {chats.map((chat) => (
-        <li>
+        <li key={chat.id}>
           <img src={chat.picture} alt="Profile" />
           <div>{chat.name}</div>
         </li>
